@@ -1,4 +1,4 @@
-# 3D touch demo to preview video
+# 3D touch demo
 
 
 <a href="http://demo.polyv.net/data/touch.html" target="_blank"><img src="http://img.videocc.net/uimage/s/sl8da4jjbx/9/sl8da4jjbx03e781777b590b733b5929_2_b.jpg" alt="alt text" width="200px" height="330px"></a>
