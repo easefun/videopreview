@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB22BEBD1BD4928700148A56 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CB22BEBC1BD4928700148A56 /* libz.tbd */; };
+		CB22BEBF1BD4929A00148A56 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB22BEBE1BD4929A00148A56 /* SystemConfiguration.framework */; };
+		CB22BEC11BD492A100148A56 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB22BEC01BD492A100148A56 /* MobileCoreServices.framework */; };
+		CB22BEC31BD4B60500148A56 /* face.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB22BEC21BD4B60500148A56 /* face.jpg */; settings = {ASSET_TAGS = (); }; };
 		CBA058371BD2A81D00AB352F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA058361BD2A81D00AB352F /* main.m */; };
 		CBA0583A1BD2A81D00AB352F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA058391BD2A81D00AB352F /* AppDelegate.m */; };
-		CBA0583D1BD2A81D00AB352F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0583C1BD2A81D00AB352F /* ViewController.m */; };
 		CBA058401BD2A81D00AB352F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA0583E1BD2A81D00AB352F /* Main.storyboard */; };
 		CBA058421BD2A81D00AB352F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA058411BD2A81D00AB352F /* Assets.xcassets */; };
 		CBA058451BD2A81D00AB352F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA058431BD2A81D00AB352F /* LaunchScreen.storyboard */; };
 		CBA058501BD2A81D00AB352F /* videopreviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0584F1BD2A81D00AB352F /* videopreviewTests.m */; };
 		CBA0585B1BD2A81D00AB352F /* videopreviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0585A1BD2A81D00AB352F /* videopreviewUITests.m */; };
+		CBA0586A1BD2A8D400AB352F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA058691BD2A8D400AB352F /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CBA0586D1BD2ACD400AB352F /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0586C1BD2ACD400AB352F /* Video.m */; settings = {ASSET_TAGS = (); }; };
+		CBA058701BD2AF2A00AB352F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0586F1BD2AF2A00AB352F /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CBA058751BD4914F00AB352F /* libpolyvSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA058731BD4914F00AB352F /* libpolyvSDK.a */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB22BEBC1BD4928700148A56 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CB22BEBE1BD4929A00148A56 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CB22BEC01BD492A100148A56 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CB22BEC21BD4B60500148A56 /* face.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = face.jpg; sourceTree = "<group>"; };
 		CBA058321BD2A81D00AB352F /* videopreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videopreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA058361BD2A81D00AB352F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBA058381BD2A81D00AB352F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBA058391BD2A81D00AB352F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CBA0583B1BD2A81D00AB352F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CBA0583C1BD2A81D00AB352F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CBA0583F1BD2A81D00AB352F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBA058411BD2A81D00AB352F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA058441BD2A81D00AB352F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,14 @@
 		CBA058561BD2A81D00AB352F /* videopreviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = videopreviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA0585A1BD2A81D00AB352F /* videopreviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = videopreviewUITests.m; sourceTree = "<group>"; };
 		CBA0585C1BD2A81D00AB352F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA058681BD2A8D400AB352F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CBA058691BD2A8D400AB352F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CBA0586B1BD2ACD400AB352F /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		CBA0586C1BD2ACD400AB352F /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
+		CBA0586E1BD2AF2A00AB352F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CBA0586F1BD2AF2A00AB352F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CBA058731BD4914F00AB352F /* libpolyvSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpolyvSDK.a; sourceTree = "<group>"; };
+		CBA058741BD4914F00AB352F /* PLVMoviePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVMoviePlayerController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB22BEC11BD492A100148A56 /* MobileCoreServices.framework in Frameworks */,
+				CB22BEBF1BD4929A00148A56 /* SystemConfiguration.framework in Frameworks */,
+				CB22BEBD1BD4928700148A56 /* libz.tbd in Frameworks */,
+				CBA058751BD4914F00AB352F /* libpolyvSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,9 @@
 		CBA058291BD2A81D00AB352F = {
 			isa = PBXGroup;
 			children = (
+				CB22BEC01BD492A100148A56 /* MobileCoreServices.framework */,
+				CB22BEBE1BD4929A00148A56 /* SystemConfiguration.framework */,
+				CB22BEBC1BD4928700148A56 /* libz.tbd */,
 				CBA058341BD2A81D00AB352F /* videopreview */,
 				CBA0584E1BD2A81D00AB352F /* videopreviewTests */,
 				CBA058591BD2A81D00AB352F /* videopreviewUITests */,
@@ -101,10 +125,16 @@
 		CBA058341BD2A81D00AB352F /* videopreview */ = {
 			isa = PBXGroup;
 			children = (
+				CBA058731BD4914F00AB352F /* libpolyvSDK.a */,
+				CBA058741BD4914F00AB352F /* PLVMoviePlayerController.h */,
+				CBA0586B1BD2ACD400AB352F /* Video.h */,
+				CBA0586C1BD2ACD400AB352F /* Video.m */,
 				CBA058381BD2A81D00AB352F /* AppDelegate.h */,
 				CBA058391BD2A81D00AB352F /* AppDelegate.m */,
-				CBA0583B1BD2A81D00AB352F /* ViewController.h */,
-				CBA0583C1BD2A81D00AB352F /* ViewController.m */,
+				CBA058681BD2A8D400AB352F /* MainViewController.h */,
+				CBA058691BD2A8D400AB352F /* MainViewController.m */,
+				CBA0586E1BD2AF2A00AB352F /* DetailViewController.h */,
+				CBA0586F1BD2AF2A00AB352F /* DetailViewController.m */,
 				CBA0583E1BD2A81D00AB352F /* Main.storyboard */,
 				CBA058411BD2A81D00AB352F /* Assets.xcassets */,
 				CBA058431BD2A81D00AB352F /* LaunchScreen.storyboard */,
@@ -117,6 +147,7 @@
 		CBA058351BD2A81D00AB352F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB22BEC21BD4B60500148A56 /* face.jpg */,
 				CBA058361BD2A81D00AB352F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -245,6 +276,7 @@
 			files = (
 				CBA058451BD2A81D00AB352F /* LaunchScreen.storyboard in Resources */,
 				CBA058421BD2A81D00AB352F /* Assets.xcassets in Resources */,
+				CB22BEC31BD4B60500148A56 /* face.jpg in Resources */,
 				CBA058401BD2A81D00AB352F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA0583D1BD2A81D00AB352F /* ViewController.m in Sources */,
+				CBA058701BD2AF2A00AB352F /* DetailViewController.m in Sources */,
 				CBA0583A1BD2A81D00AB352F /* AppDelegate.m in Sources */,
+				CBA0586D1BD2ACD400AB352F /* Video.m in Sources */,
 				CBA058371BD2A81D00AB352F /* main.m in Sources */,
+				CBA0586A1BD2A8D400AB352F /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +447,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = videopreview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/videopreview",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = easefun.videopreview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,6 +462,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = videopreview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/videopreview",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = easefun.videopreview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,6 +538,7 @@
 				CBA058611BD2A81D00AB352F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBA058621BD2A81D00AB352F /* Build configuration list for PBXNativeTarget "videopreviewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +547,7 @@
 				CBA058641BD2A81D00AB352F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBA058651BD2A81D00AB352F /* Build configuration list for PBXNativeTarget "videopreviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +556,7 @@
 				CBA058671BD2A81D00AB352F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
