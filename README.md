@@ -66,4 +66,4 @@ iOS9和iPhone6s/6s Plus的发布，比较令人关注的一个新特性就是3D 
 
 
 
-
+<a href="https://github.com/easefun/videopreview/archive/master.zip">demo代码下载</a>
